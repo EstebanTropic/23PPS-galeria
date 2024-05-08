@@ -69,7 +69,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: text
-        uses: johnlekerse/website-healthcheck@v2
+        uses: johnlokerse/website-healthcheck@v2
         with:
           web-url: "http://${{ secrets.AWS_HOSTNAME }}"
           scan-for-text: "Hello from Flask App"
