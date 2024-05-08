@@ -22,7 +22,7 @@ def homepage():
     # Render HTML with variable
     return render_template("index.html", the_time=the_time, tema="beach")
 
-    # return f""" 
+    # return f""" p
     # <h1>Hello heroku</h1>
     # <p>It is currently {the_time}.</p>
     # <img src="http://loremflickr.com/600/400" />
