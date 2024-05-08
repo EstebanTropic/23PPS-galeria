@@ -65,7 +65,7 @@ jobs:
   check:  
     name: checkfor status 200
     runs-on: ubuntu-latest
-    needs: check
+    needs: aws
     steps:
       uses: actions/checkout@v2
       id: text
