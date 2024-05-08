@@ -20,9 +20,9 @@ def homepage():
     the_time = datetime.now().strftime("%A, %d %b %Y %H:%M:%S")
 
     # Render HTML with variable
-    return render_template("index.html", the_time=the_time, tema="dogs")
+    return render_template("index.html", the_time=the_time, tema="beach")
 
-    # return f""" h
+    # return f""" pass
     # <h1>Hello heroku</h1>
     # <p>It is currently {the_time}.</p>
     # <img src="http://loremflickr.com/600/400" />
@@ -35,7 +35,7 @@ def homepage_spain():
     the_time = datetime.now().strftime("%A, %d %b %Y %H:%M:%S")
 
     # Render HTML with variable
-    return render_template("index.html", the_time=the_time, tema="beach")
+    return render_template("index.html", the_time=the_time, tema="dog")
 
 
 if __name__ == '__main__':
