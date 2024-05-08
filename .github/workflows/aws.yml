@@ -20,4 +20,4 @@ jobs:
             sleep 60
             docker stop web && docker rm web
             docker rmi tropic71/galeria
-            docker run -d -p 80:5000 --name web tropic71/galeria:lates
+            docker run -d -p 80:5000 --name web tropic71/galeria:latest
